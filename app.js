@@ -49,14 +49,6 @@ document.getElementById("decrypt").addEventListener("click",decrypt);
 
 //************************* EJERCICIO GENERADOR ALEATORIO *****************/
 
-var isInside = (array, number) =>{
-    if(array.indexOf(number) !== -1){
-        return true;
-    }else{
-        return false;
-    }
-} 
-
 var randomPick = (n, min, max) => {
     var range = max - min +1;
     var salida = [];
